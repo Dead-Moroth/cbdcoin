@@ -1,0 +1,36 @@
+<shortcuts>
+	<skipIfNotSupported/>
+	<defaultCurrentUser/>
+	<programGroup defaultName="CBDCoin" location="startMenu"/>
+	<shortcut
+		name="CBDCoin Server"
+		target="$INSTALL_PATH\CBDCoin.exe"
+		commandLine=""
+		workingDirectory="$INSTALL_PATH"
+        description="Start CBDCoin server"
+		iconFile="$INSTALL_PATH\html\www\favicon.ico"
+        iconIndex="0"
+        initialState="normal"
+        programGroup="yes"
+		desktop="yes"
+        applications="no"
+        startMenu="no"
+		startup="no"
+		runAsAdministrator="true">
+	</shortcut>	
+	<shortcut
+		name="CBDCoin Wallet"
+		target="http://localhost:6876/index.html"
+		commandLine=""
+		workingDirectory="$INSTALL_PATH"
+        description="Launch CBDCoin wallet in browser"
+		iconFile="$INSTALL_PATH\html\www\favicon.ico"
+        iconIndex="0"
+        initialState="normal"
+        programGroup="yes"
+		desktop="yes"
+        applications="no"
+        startMenu="no"
+		startup="no">
+	</shortcut>	
+</shortcuts>
